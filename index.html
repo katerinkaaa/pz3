@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./magnificpopup.css">
+</head>
+<body>
+    <header>    
+        <div class="header" id="top_btn">
+            <div class="container">
+                <div class="header__top">
+                    <div class="logo">
+                        Flowers
+                    </div>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span class="row"></span>
+                        </button>
+                       <ul class="menu__list">
+                           <li class="menu__item">
+                               <a class="menu__link" href="#about">О нас</a>
+                            </li>
+                           <li class="menu__item">
+                               <a class="menu__link" href="#bouquets">Букеты</a>
+                            </li>
+                           <li class="menu__item">
+                               <a class="menu__link" href="#reviews">Отзывы</a>
+                            </li>
+                           <li class="menu__item">
+                               <a class="menu__link" href="#payment">Доставка<br class="menu__ipad"> и оплата</a>
+                            </li>
+                           <li class="menu__item">
+                               <a class="menu__link" href="#">Контакты</a>
+                            </li>
+                       </ul> 
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="webpage">
+        <main class="main">
+            <div class="container">
+                    <h1 class="main__title">
+                        Быстрая доставка букетов по всему Минску
+                    </h1>
+                    <a class="main__btn" href="#bouquets">Выбрать букет</a>
+            </div>
+        </main>    
+        <section class="about">
+                <div class="container">
+                    <h2 class="about__title" id="about">О нас</h2>
+                    <div class="about__list">
+                        <div class="about__item">
+                            <div class="about__img">
+                                <img class="images" src="./images/price.svg" alt="фото">
+                            </div>    
+                            <a class="about__text">Демократичные цены</a>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__img">
+                                <img class="images" src="./images/style.svg" alt="фото">
+                            </div>    
+                            <a class="about__text">Самые стильные букеты</a>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__img">
+                                <img class="images" src="./images/fresh.svg" alt="фото">
+                            </div>
+                            <a class="about__text">Самые свежие цветы</a>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__img">
+                                <img class="images" src="./images/delivery.svg" alt="фото">
+                            </div>
+                            <a class="about__text">Быстрая доставка</a>
+                        </div>     
+                    </div>
+                </div>
+        </section>
+        <section class="bouquets" id="bouquets">
+                <div class="container">
+                    <h2 class="bouquets__title">
+                        Букеты
+                    </h2>
+                    <div class="bouquet__link">
+                        <div class="bouquet__item" id="bouquet__item1">
+                            <div class="bouquet__img">
+                                <a href="./images/bouquet1.png" class="bouquet__popup"><img class="bouquet__images" src="./images/bouquet1.png" alt="фото" ></a>
+                            </div>
+                            <a class="bouquet__title">Букет <br>"Нежность"</a>
+                            <a class="bouquet__price">100 BYN</a>
+                            <a class="bouquet__btn" href="#order">Заказать</a>
+                        </div>
+                        <div class="bouquet__item">
+                            <div class="bouquet__img">
+                                <a href="./images/bouquet2.png" class="bouquet__popup"><img class="bouquet__images" src="./images/bouquet2.png" alt="фото"></a>
+                            </div>
+                            <a class="bouquet__title">Букет <br>"Ласка"</a>
+                            <a class="bouquet__price">150 BYN</a>
+                            <a class="bouquet__btn" href="#order">Заказать</a>
+                        </div>
+                        <div class="bouquet__item">
+                            <div class="bouquet__img">
+                                <a href="./images/bouquet3.png" class="bouquet__popup"><img class="bouquet__images" src="./images/bouquet3.png" alt="фото"></a>
+                            </div>
+                            <a class="bouquet__title">Букет<br> "Любовь"</a>
+                            <a class="bouquet__price">200 BYN</a> 
+                            <a class="bouquet__btn" href="#order">Заказать</a>                   
+                        </div>
+                        <div class="bouquet__item" id="bouquet__item2">
+                            <div class="bouquet__img">
+                                <a href="./images/bouquet4.png" class="bouquet__popup"><img class="bouquet__images" src="./images/bouquet4.png" alt="фото"></a>
+                            </div>
+                            <a class="bouquet__title">Букет <br>"Оригинальный"</a>
+                            <a class="bouquet__price">120 BYN</a>
+                            <a class="bouquet__btn" href="#order">Заказать</a>
+                        </div>
+                        <div class="bouquet__item">
+                            <div class="bouquet__img">
+                                <a href="./images/bouquet5.png" class="bouquet__popup"><img class="bouquet__images" src="./images/bouquet5.png" alt="фото"></a>
+                            </div>
+                            <a class="bouquet__title">Букет <br>"Улыбка"</a>
+                            <a class="bouquet__price">140 BYN</a>
+                            <a class="bouquet__btn" href="#order">Заказать</a>
+                        </div>
+                        <div class="bouquet__item">
+                            <div class="bouquet__img">
+                                <a href="./images/bouquet6.png" class="bouquet__popup"><img class="bouquet__images" src="./images/bouquet6.png" alt="фото"></a>
+                            </div>
+                            <a class="bouquet__title">Букет<br> "Поцелуй"</a>
+                            <a class="bouquet__price">210 BYN</a>
+                            <a class="bouquet__btn" href="#order">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="payment">
+                    <div class="container">
+                        <h2 class="payment__title" id="payment">
+                            Оплата и доставка
+                        </h2>
+                        <div class="payment__link">
+                            <div class="payment__item">
+                                <div class="payment__img">
+                                    <img class="payment__images" src="./images/payment.svg" alt="фото">
+                                </div>
+                                    <a class="payment__text">Оплата</a>
+                                    <a class="payment__description">Оплатить заказ можно при получении либо в пункте самовывоза</a>
+                            </div>
+                            <div class="payment__item">
+                                <div class="payment__img">
+                                    <img class="payment__images1" src="./images/delivery.svg" alt="фото">
+                                </div>    
+                                    <a class="payment__text1">Доставка</a>
+                                    <a class="payment__description1">Доставим в любую точку Минска в течение дня</a>
+                            </div>
+                            <div class="payment__item">
+                                <div class="payment__img">
+                                    <img class="payment__images2" src="./images/pickup.svg" alt="фото">
+                                </div>                            
+                                    <a class="payment__text_pickup">Самовывоз</a>
+                                    <a class="payment__description">Вы можете забрать букет самостоятельно по адресу г. Минск, ул. Белая 1</a>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section class="reviews">
+            <div class="container__reviews">
+                <h2 class="reviews__title" id="reviews">
+                    Отзывы
+                </h2>
+                <div class="reviews__slider">
+                    <div class="reviews__left">
+                        <img class="reviews__img" src="./images/left.svg" alt="стрелочка">
+                    </div>
+                    <div class="reviews__main">
+                        <div class="reviews__tape">
+                            <div class="reviews__item">
+                                <div class="reviews__info">
+                                    <div class="reviews__photo">
+                                        <img class="reviews-img__photo" src="./images/photo.png" alt="фото">
+                                    </div>
+                                    <div class="reviews__name">
+                                        Анастасия Иванова
+                                    </div>
+                                    <div class="reviews__text">
+                                        Спасибо за чудесный букет! Все пришло вовремя)
+                                    </div>
+                                </div>
+                                <div class="reviews__bouquet-photo">
+                                    <img class="reviews__bouquet" src="./images/review1.png" alt="фото" >
+                                </div>
+                            </div>
+                            <div class="reviews__item">
+                                <div class="reviews__info">
+                                    <div class="reviews__photo">
+                                        <img class="reviews-img__photo" src="./images/photo.png" alt="фото">
+                                    </div>
+                                    <div class="reviews__name">
+                                        Анастасия Иванова
+                                    </div>
+                                    <div class="reviews__text">
+                                        Спасибо за чудесный букет! Все пришло вовремя)
+                                    </div>
+                                </div>
+                                <div class="reviews__bouquet-photo">
+                                    <img class="reviews__bouquet" src="./images/bouquet3.png" alt="фото" >
+                                </div>
+                            </div>
+                            <div class="reviews__item">
+                                <div class="reviews__info">
+                                    <div class="reviews__photo">
+                                        <img class="reviews-img__photo" src="./images/photo.png" alt="фото">
+                                    </div>
+                                    <div class="reviews__name">
+                                        Валерия Иванова
+                                    </div>
+                                    <div class="reviews__text">
+                                        Спасибо за чудесный букет! Все пришло вовремя)
+                                    </div>
+                                </div>
+                                <div class="reviews__bouquet-photo">
+                                    <img class="reviews__bouquet" src="./images/bouquet6.png" alt="фото" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__right">
+                        <img class="reviews__img" src="./images/right.svg" alt="стрелочка">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="forms">
+            <div class="container">
+                <div class="forms__title" id="order">
+                    Оформить заказ
+                </div>
+                <div class="forms__main">
+                    <form onsubmit="return catchSubmit(event)" class="form__main" id="form__main" action="#">
+                        <div class="personal__data" id='per__data'>
+                            <input class="input__personal-data" type="text" name="name" placeholder="Имя*" required>
+                            <input class="input__personal-data" type="text" name="forname" placeholder="Фамилия*" required>
+                            <input class="input__personal-data" type="tel" name="mobile" placeholder="Телефон*" id="phone" data-validate-field="tel" required>
+                        </div>
+                        <div class="choice__bouquet" id="choice__bouquet">
+                            <p class="p__title">Букет*</p>
+                            <div class="choice__bouquet-main">
+                                <div class="choice__bouquet-item1">
+                                    <input type="checkbox" class="checkbox-bqt" checked />
+                                    <a class="ch"><label class="choice__bouquet-title">Нежность 100 BYN</label></a>
+                                </div>
+                                <div class="choice__bouquet-item">
+                                    <input type="checkbox" class="checkbox-bqt" />
+                                    <a href="" class="ch"><label class="choice__bouquet-title">Ласка 150 BYN</label></a>
+                                </div>
+                                <div class="choice__bouquet-item1">
+                                    <input type="checkbox" class="checkbox-bqt" />
+                                    <a href="" class="ch"><label class="choice__bouquet-title">Любовь 200 BYN</label></a>
+                                </div>
+                                <div class="choice__bouquet-item">
+                                    <input type="checkbox" class="checkbox-bqt" />
+                                    <a href="" class="ch"><label class="choice__bouquet-title">Оригинальный 120 BYN</label></a>
+                                </div>
+                                <div class="choice__bouquet-item1">
+                                    <input type="checkbox" class="checkbox-bqt" />
+                                    <a href="" class="ch"><label class="choice__bouquet-title">Улыбка 140 BYN</label></a>
+                                </div>
+                                <div class="choice__bouquet-item">
+                                    <input type="checkbox" class="checkbox-bqt" />
+                                    <a href="" class="ch"><label class="choice__bouquet-title">Поцелуй 210 BYN</label></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="decor">
+                            <p class="p__title-decor">Букет оформить в*</p>
+                            <div class="decor__main">
+                                <div class="decor__item">
+                                    <input type="radio" name="type_decor" class="radio" />
+                                    <a href="" class="dec"><label class="decor__title">Коробку (+2 BYN)</label></a>
+                                </div>
+                                <div class="decor__item1">
+                                    <input type="radio" name="type_decor" class="radio" checked/>
+                                    <a href="" class="dec"><label class="decor__title">Флористическую бумагу</label></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bonus">
+                            <p class="p__title-bonus">К букету добавить</p>
+                            <div class="bonus__main">
+                                <div class="bonus__item1">
+                                    <input type="checkbox" class="checkbox" checked />
+                                    <a href="" class="bns"><label class="bonus__title">Открытку (+1 BYN)</label></a>
+                                </div>
+                                <div class="bonus__item">
+                                    <input type="checkbox" class="checkbox" />
+                                    <a href="" class="bns"><label class="bonus__title">Шоколадку (+3 BYN)</label></a>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="delivery">
+                            <p class="p__title-del">Доставка*</p>
+                            <div class="delivery__main">
+                                <div class="delivery__item1">
+                                    <input type="radio" name="type_delivery" class="radio" checked/>
+                                    <a href="" class="del"><label class="delivery__title">Курьером (+10 BYN)</label></a>
+                                </div>
+                                <div class="delivery__item">
+                                    <input type="radio" name="type_delivery" class="radio" />
+                                    <a href="" class="del"><label class="delivery__title">Самовывоз</label></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="delivery__block">
+                            <div class="delivery__date">
+                                <p class="p__title-date">Дата доставки*</p>
+                                <div class="delivery-date__item">
+                                    <input class="date__time" type="date" name="date"/>
+                                    <div class="calendar__icon"></div>
+                                </div>
+                            </div>
+                            <div class="delivery__time">
+                                <p class="p__title-date">Время доставки*</p>
+                                <div class="delivery-time_item">
+                                    <select name="time" class="date__times">
+                                        <option value="time1">9:00-12:00</option>
+                                        <option value="time2">12:00-15:00</option>
+                                        <option value="time3">15:00-18:00</option>
+                                        <option value="time4">18:00-21:00</option>
+                                        <option value="time5">21:00-00:00</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="delivery-address">
+                                <input type="text" name="address" placeholder="Адрес доставки*"  class="input__address" required>
+                                <textarea class="input__comment" name="comment" id="comment" cols="30" rows="10" placeholder="Комментарий к заказу"></textarea>
+                                <p class="p__title-ob">* обязательно к заполнению</p>
+                        </div>
+                        <div class="cost">
+                            <div class="itog">Итого <span class="result__cost" id='result__cost'></span>BYN</div>
+                        </div>
+                        <div class="button">
+                                <button class="butoon__to-order" type="submit">Заказать</button>
+                                <button class="butoon__to-clear" type="reset">Очистить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="map" id="map">
+        <div class="map__item">
+                <iframe class="map__img" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6733c31d028b8df52604a1eb19f00c342893e8c256a96d9ddd75258344d22b18&amp;source=constructor" width="1440" height="772" frameborder="0"></iframe>
+                <iframe class="map__img-ipad" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6733c31d028b8df52604a1eb19f00c342893e8c256a96d9ddd75258344d22b18&amp;source=constructor" width="768" height="553" frameborder="0"></iframe>
+                <iframe class="map__img-phone" src="https://yandex.ru/map-widget/v1/?um=constructor%3A6733c31d028b8df52604a1eb19f00c342893e8c256a96d9ddd75258344d22b18&amp;source=constructor" width="375" height="292" frameborder="0"></iframe>  
+        </div>
+        <div class="btn__top">
+                <a href="#top_btn">
+                    <img class="btn__mark-top"  src="./images/top.svg" alt="фото">
+                </a>
+        </div>
+        <div class="contact">
+                <div class="contact__address">
+                    <img class="address__img" src="./icons/mark1.svg" alt="фото" >
+                    <p class="address__text">г. Минск, ул. Белая 1</p>
+                </div>
+                <div class="contact__phone">
+                    <img class="phone__img" src="./icons/phone.svg" alt="фото">
+                    <p class="phone__text">+375 (29) 123- 45-67</p>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <img class="contact__img" src="./icons/viber.svg" alt="фото">
+                    </div>
+                    <div class="item">
+                        <img class="contact__img" src="./icons/telegram.svg" alt="фото">
+                    </div>
+                    <div class="item">
+                        <img class="contact__img" src="./icons/watsap.svg" alt="фото">
+                    </div>
+                    <div class="item">
+                        <img class="contact__img" src="./icons/instagram.svg" alt="фото">
+                    </div>
+                    <div class="item">
+                        <img class="contact__img" src="./icons/facebook.svg" alt="фото">
+                    </div>
+                    <div class="item">
+                        <img class="contact__img" src="./icons/vk.svg" alt="фото">
+                    </div>
+                </div>
+                <a class="order__text" id="order__text" href="#popup__order">
+                    Заказать звонок
+                </a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__info">
+                    <div class="footer__logo">
+                        Flowers
+                    </div>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu__list">
+                            <li class="footer__menu-item">
+                                <a class="footer.menu__link" href="#about">О нас</a>
+                             </li>
+                            <li class="footer__menu-item">
+                                <a class="footer.menu__link" href="#bouquets">Букеты</a>
+                             </li>
+                            <li class="footer__menu-item">
+                                <a class="footer.menu__link" href="#reviews">Отзывы</a>
+                             </li>
+                            <li class="footer__menu-item">
+                                <a class="footer.menu__link" href="#payment">Доставка и оплата</a>
+                             </li>
+                            <li class="footer__menu-item">
+                                <a class="footer.menu__link" href="#">Контакты</a>
+                             </li>
+                             <li class="footer__menu-item">
+                                <img class="footer.menu_link_icons" src="./icons/phone.svg" alt="иконка">
+                                <a class="footer.menu__link" href="#">+375(29)123-45-67</a>
+                             </li> 
+                        </ul> 
+                     </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="invisible">
+        <div class="popup__order" id="popup__order"> 
+            <div class="popup__order-body">
+                <div class="popup__container">
+                    <div class="popup__order-content">
+                        <a class="popup__close-order" id="popup__close-order">+</a>
+                        <p class="popup__order-title">
+                            Заказать звонок
+                        </p>
+                        <p class="popup__order-text">
+                            Оставьте свой номер телефона, и мы<br> перезвоним Вам.
+                        </p>
+                        <p class="popup__order-text-ph">
+                            Оставьте свой номер телефона, и мы перезвоним Вам.
+                        </p>
+                        <form class=".popup__form" action="#">
+                            <input class="popup__order-input" id="phone-order" type="tel" name="mobile" placeholder="Телефон*" data-validate-field="tel" required>
+                            <div class="button">
+                                <button class="btn__to-call" id="btn__to-call" type="submit">Заказать звонок</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Подключение библиотеки jQuery-->  
+    <script src="./js/jquery.js"></script>
+    <!--Подключение jQuery плагина Masked Input-->
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <!--Маска для телефона-->
+    <script src="/js/maskaphone.js"></script>
+     <!--Меню гамбургер-->
+    <script src="./js/menuHeader.js"></script>
+    <!--Попап для увеличения картинок букетов-->
+    <script src="./js/magnificpopup.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.bouquet__popup').magnificPopup({
+                type: 'image'
+            });
+        });
+    </script>
+    <!--Форма в модальном окне-->
+    <script>
+        jQuery(document).ready(function($) {
+            $('.order__text').magnificPopup({
+                type: 'inline'
+            });
+        });
+    </script>
+    <script>
+        window.onload = init;
+        function init () {
+            var ord_close = document.getElementById('popup__close-order');
+            var btn = document.getElementById('btn__to-call');
+            ord_close.addEventListener('click', closePopup);
+            btn.addEventListener('click',function () {
+                if (document.getElementById('phone-order').value.length > 0) {
+                    $.magnificPopup.close();
+                    document.getElementById('phone-order').value = "";}
+            });}
+            function closePopup() {
+                $.magnificPopup.close();
+                    document.getElementById('phone-order').value = "";
+            }
+    </script>
+    <script>
+            function catchSubmit(e) {
+        e.preventDefault();
+        if ($('.choice__bouquet-main :checkbox:checked').length === 0)
+            window.location.href = '#choice__bouquet';
+        else {
+            document.getElementById("form__main").reset();
+            alert('Ваш заказ успешно оформлен!')
+        }
+    }
+    </script>
+</body>
+</html>
